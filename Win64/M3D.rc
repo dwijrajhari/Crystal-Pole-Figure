@@ -1,0 +1,93 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FONT
+//
+
+AVRILE_SANS_REGULAR          FONT           "avrile-sans-regular.ttf"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHADER
+//
+
+M3D_FSHADER                  SHADER         "Shaders\\m3d_fshader.glsl"
+                             
+M3D_FSHADER_POINT            SHADER         "Shaders\\m3d_fshader_point.glsl"
+                             
+M3D_FSHADER_STEREO           SHADER         "Shaders\\m3d_fshader_stereo.glsl"
+
+M3D_FSHADER_TEXT             SHADER         "Shaders\\m3d_fshader_text.glsl"
+
+                             
+M3D_VSHADER                  SHADER         "Shaders\\m3d_vshader.glsl"
+                             
+M3D_VSHADER_POINT            SHADER         "Shaders\\m3d_vshader_point.glsl"
+                             
+M3D_VSHADER_STEREO           SHADER         "Shaders\\m3d_vshader_stereo.glsl"
+
+M3D_VSHADER_TEXT             SHADER         "Shaders\\m3d_vshader_text.glsl"
+
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
